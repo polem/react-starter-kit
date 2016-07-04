@@ -1,0 +1,12 @@
+{
+  "presets": [
+    "es2015-webpack",
+    "react",
+    "stage-0"
+  ],
+  "env": {
+      "production": {
+          "plugins": ["transform-react-constant-elements", "transform-react-inline-elements"]
+      }
+  }
+}
